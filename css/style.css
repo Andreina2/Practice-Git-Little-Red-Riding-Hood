@@ -4,4 +4,24 @@ body {
 
 h1 {
     color: red;
+    text-align: center;
+    font-family:Arial;
+}
+
+
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 20px;
+}
+
+footer {
+    font-family: sans-serif;
+    display: flex;
+    justify-content:center;
+    align-items:end
 }
