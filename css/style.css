@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: bisque;
 }
@@ -6,22 +13,44 @@ h1 {
     color: red;
     text-align: center;
     font-family:Arial;
+    padding: 2%;
 }
 
 
-.contenedor1{
+.contenedor1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2%;
 }
+
+
 
 img {
-    border-radius: 20px;
+     border-radius: 20px;
+}
+  
+
+
+p { 
+    color: black;
+    margin: 1rem 2rem;
+    font-size: 1.8rem;
+    font-family: Arial; 
+    text-align: justify;
+    font-weight: 300;
+    line-height: 3rem;
+    
 }
 
+
 footer {
+    background-color: rosybrown;
     font-family: sans-serif;
     display: flex;
+    align-self: end;
     justify-content:center;
-    align-items:end
+    align-items:end;
+    height: 80px;
+
 }
